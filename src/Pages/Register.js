@@ -13,7 +13,7 @@ const Register= () => {
   const handlesubmit= async (e)=>{
     e.preventDefault()
     try {
-      await axios.post("http://localhost:4000/auth/register" , {
+      await axios.post("https://uiserverfood.onrender.com/auth/register" , {
         username,
         password,
       })

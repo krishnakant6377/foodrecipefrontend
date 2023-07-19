@@ -15,7 +15,7 @@ const Savedrecipea = () => {
         const fetchSavedRecipes = async () => {
           try {
             const response = await axios.get(
-              `http://localhost:4000/recipes/savedrecipe/${userID}`
+              `https://uiserverfood.onrender.com/recipes/savedrecipe/${userID}`
             );
           
             setSavedRecipes(response.data.savedRecipes);

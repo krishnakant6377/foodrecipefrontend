@@ -38,7 +38,7 @@ const Form = () => {
     const onsubmit=async (e)=>{
         e.preventDefault()
         try {
-          await  axios.post("http://localhost:4000/recipes",recipe)
+          await  axios.post("https://uiserverfood.onrender.com/",recipe)
           alert("recipe created successfully")
             navigate("/savedrecipe")
         } catch (err) {
