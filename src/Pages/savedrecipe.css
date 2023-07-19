@@ -1,0 +1,33 @@
+.savedmain{
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 250, 79));
+    height: 100%;
+}
+.h{
+    text-decoration: underline yellowgreen;
+    background-color: black;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 250, 79));
+    color: white;
+    top: 0;
+}
+
+.savedmain ul li{
+    list-style-type: none;
+    color:rgb(15, 15, 15);
+    top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.savedmain ul li img{
+
+    width: 400px;
+    height: 300px;
+}
+.savedmain ul {
+    border: 1px solid white;
+    width: 50%;
+    margin-left: 20%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 250, 79));
+}
+   
+ 

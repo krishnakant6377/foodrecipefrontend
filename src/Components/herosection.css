@@ -1,0 +1,51 @@
+
+
+.herodiv{
+    width: 70%;
+    height: 30%;
+    margin: 20px 20px ;
+
+    padding: 20px 20px; 
+    font-size: 34px;
+    font-weight: normal;
+
+    z-index: 5;
+   
+    
+}
+.heroimg{
+    width: fit-content;
+    height: fit-content;
+   /* border-left: 1px solid black; */
+ z-index: -1;
+    position: relative;
+    /* box-shadow: inset 100px 0 0px black; */
+
+   
+  
+}
+.insidediv{
+    text-transform: uppercase;
+    position: absolute;
+   top: 45%;
+   left: 10%;
+   /* line-height: 30%; */
+   color: white;
+}
+
+.insidediv button {
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+@media only screen and (max-width: 968px) {
+    .heroimg{
+        width: 30%;
+    }
+}

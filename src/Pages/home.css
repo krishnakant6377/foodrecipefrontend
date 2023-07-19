@@ -1,0 +1,16 @@
+.home1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.home1 img{
+    width: 350px;
+    height: 300px;
+
+    border-radius: 10px;
+}
+.upimg{
+  
+    text-transform: uppercase;
+}

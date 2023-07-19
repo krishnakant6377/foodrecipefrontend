@@ -1,0 +1,77 @@
+.form {
+   padding: 5px;
+    height: 90%;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0),  rgb(233, 250, 79));
+    text-transform: uppercase;
+   
+}
+.savemain{
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 250, 79));
+  height: 100vh;
+
+}
+
+
+.addb{
+    cursor: pointer;
+    border: none;
+    font-size: 34px;
+    background-color: black;
+    color: white;
+    margin:  0 50px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 250, 79));
+    
+ 
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.addb:hover{
+    text-decoration: underline greenyellow;
+
+}
+.savehead{
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline gray;
+    
+    
+}
+
+.hello{
+    margin: 30px;
+    background-color: white;
+    color: black;
+font-weight: bold;
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 250, 79));
+}
+.input{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 10px;
+    
+    width: 150px;
+    height: 20px;
+    margin-left: 20px;
+    padding: 10px 5px;
+}
+textarea{margin-left: 20px;
+border-radius: 10px;}
+#ingredients{
+    margin-left: 20px;
+}
+.button{
+    cursor: pointer;
+ background-color: rgb(4, 3, 5);
+ color: rgb(230, 247, 84);
+ border: 2px groove gray;
+ height: 30px;
+ text-transform: uppercase;
+ 
+}
